@@ -1,0 +1,37 @@
+#WEB{
+ font-size:50px;
+ text-align: center;
+ border-bottom: gray solid 2px;
+ padding-bottom: 15px;
+ margin-bottom: 0;
+}
+
+#WEB_link{
+  color: green;
+  text-decoration: overline underline;
+  }
+
+#list{
+  font-size: 18px;
+  border-right: gray solid 2px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+#contents{
+  padding-left:20px;
+}
+
+.list_link:link{text-decoration: none; color: black;}
+.list_link:visited{text-decoration: none; color: gray;}
+.list_link:active{text-decoration: none; color: red;}
+.list_link:hover{text-decoration: underline; color: blue;}
+
+#grid{
+  display: grid;
+  grid-template-columns: 140px 1fr;
+}
+
+body{
+  margin: 0;
+}
